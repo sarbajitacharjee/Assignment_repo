@@ -16,7 +16,7 @@ export default function UserRegistration() {
 
     try {
       const response = await fetch(
-        `http://apilayer.net/api/check?access_key=e880adda32df3690e7dbcf034a46a590&email=${email}&smtp=1&format=1`
+        `https://apilayer.net/api/check?access_key=e880adda32df3690e7dbcf034a46a590&email=${email}&smtp=1&format=1`
       );
       const data = await response.json();
 
